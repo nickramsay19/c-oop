@@ -15,6 +15,7 @@ int main() {
     Point3D* p3 = createPoint3D(-5, 4, 2);
     p3->setX(p3, 5);
     p3->setZ(p3, 7);
+    
     printf("Point3D: %d, %d, %d\n", p3->getX(p3), p3->getY(p3), p3->getZ(p3));
 
     return 0;
