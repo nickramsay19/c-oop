@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-#include "../include/Point.h"
+#include "include/Point.h"
 
 int main() {
     Point* p = createPoint(5,0);
